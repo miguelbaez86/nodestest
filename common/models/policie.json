@@ -1,0 +1,20 @@
+{
+  "name": "policie",
+  "base": "Model",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "email": {
+      "type": "string"
+    }   
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
